@@ -8,6 +8,52 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Reference",
+"class": "ArgumentParser",
+"language": "GDScript",
+"path": "res://addons/godot-css-theme/ArgumentParser.gd"
+}, {
+"base": "Reference",
+"class": "CSSParser",
+"language": "GDScript",
+"path": "res://addons/godot-css-theme/CSSParser.gd"
+}, {
+"base": "Reference",
+"class": "Emojis",
+"language": "GDScript",
+"path": "res://addons/emojis-for-godot/emojis/emojis.gd"
+}, {
+"base": "Reference",
+"class": "OptParse",
+"language": "GDScript",
+"path": "res://addons/godot-css-theme/optparse.gd"
+}, {
+"base": "Reference",
+"class": "Options",
+"language": "GDScript",
+"path": "res://addons/godot-css-theme/Options.gd"
+}, {
+"base": "Reference",
+"class": "Stylesheet",
+"language": "GDScript",
+"path": "res://addons/godot-css-theme/Stylesheet.gd"
+}, {
+"base": "Reference",
+"class": "ThemeApplier",
+"language": "GDScript",
+"path": "res://addons/godot-css-theme/ThemeApplier.gd"
+} ]
+_global_script_class_icons={
+"ArgumentParser": "",
+"CSSParser": "",
+"Emojis": "res://addons/emojis-for-godot/icon.png",
+"OptParse": "",
+"Options": "",
+"Stylesheet": "",
+"ThemeApplier": ""
+}
+
 [application]
 
 config/name="VoidOS"
@@ -58,7 +104,7 @@ convert_text_resources_to_binary_on_export=true
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/nicense/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/emojis-for-godot/plugin.cfg", "res://addons/godot-css-theme/plugin.cfg", "res://addons/gut/plugin.cfg", "res://addons/nicense/plugin.cfg", "res://addons/ridiculous_coding/plugin.cfg", "res://addons/tool_button/plugin.cfg" )
 
 [gui]
 
