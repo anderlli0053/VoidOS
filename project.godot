@@ -20,11 +20,6 @@ _global_script_classes=[ {
 "path": "res://addons/godot-css-theme/CSSParser.gd"
 }, {
 "base": "Reference",
-"class": "Emojis",
-"language": "GDScript",
-"path": "res://addons/emojis-for-godot/emojis/emojis.gd"
-}, {
-"base": "Reference",
 "class": "OptParse",
 "language": "GDScript",
 "path": "res://addons/godot-css-theme/optparse.gd"
@@ -47,7 +42,6 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "ArgumentParser": "",
 "CSSParser": "",
-"Emojis": "res://addons/emojis-for-godot/icon.png",
 "OptParse": "",
 "Options": "",
 "Stylesheet": "",
